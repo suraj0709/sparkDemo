@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fbc114e883.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Spark Demo Webpage</title>
+  </head>
+  <body>
+
+    <!-- sidebar -->
+    <section>
+
+      <div class="sidebar">
+        <div class="logo-div">
+          <img class="logo" src="spark_logo.png" alt="">
+        </div>
+        <div class="menu">
+          <a href="#" id="menu" onclick="isActive()" class="active"><i class="fas fa-user"><br><span>Students</span></i></a>
+          <a href="#" id="menu1" onclick="isActive1()" class=""><i class="fas fa-book"><br><span>Lesson Plan</span></i></a>
+          <a href="#" id="menu2" onclick="isActive2()" class=""><i class="fas fa-cog"><br><span>Settings</span></i></a>
+        </div>
+    </section>
+
+    <div class="nn"></div>
+    <div class="heading"><i class="fas fa-caret-left"> Videos</i></div>
+
+    <div class="container">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="" value="" placeholder="Insert URL here">
+      </form>
+      <h5>or</h5>
+
+      <input type="file" id="file" accept="video/*" name="" value="">
+      <label for="file">
+      <div class="upload">
+        <p>upload</p>
+      </div>
+      </label>
+    </div>
+
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
